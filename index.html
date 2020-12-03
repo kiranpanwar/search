@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <title>Search</title>
+        <style>
+            a{
+                text-decoration: none;
+                color:black;
+            }
+
+            a:hover{
+                text-decoration: underline;
+                color:rgb(31, 33, 53);
+            }
+
+            .nav{
+                text-align: right;
+            }
+
+            .image{
+                margin-right: 15px;
+            }
+
+            .kp{
+                text-align: center;
+            }
+
+            .google{
+                text-align: center;
+                padding:19px;
+                margin-top: 132px;
+                font-size:104px;
+                font-family: 'Roboto', sans-serif;
+            }
+
+            .k{
+                height:31px;
+                width:113px;
+                margin-top:15px;
+                padding:6px;
+                border-radius:7px;
+                border-width:0px;
+                background-color:rgb(255,241,241);
+            }
+
+            .k:hover{
+                background:rgb(224,220,220);
+                border-width:ipx;
+            }
+
+            .pm{
+                height:42px;
+                width:550px;
+                border-radius:18px;
+                border-width:0.15px;
+                background-color:whitesmoke;
+            }
+
+            .pm:hover{
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+
+            span{
+                text-align:center;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="nav">
+            <a class="image" href="image-search.html">Image Search</a>
+            <a class="advance" href="advanced-search.html">Advanced Search</a>
+        </nav>
+        <div class="google">
+            <span style="color: rgb(39, 112, 221);">G</span>
+            <span style="color: orangered;">o</span>
+            <span style="color:orange;">o</span>
+            <span style="color: rgb(39, 112, 221);">g</span>
+            <span style="color:rgb(6, 172, 48);">l</span>
+            <span style="color:orangered;">e</span>
+        </div>
+         <div class="container">
+             <span>
+                 <form class="kp">
+                     <input class="pm" type="text" name="q">
+                     <br>
+                     <input class="k" type="submit" formaction="https://google.com/search" value="Google Search">
+                     <input class="k" type="submit" formaction="https://google.com/doodles/" value="I'm Feeling Lucky">
+                 </form>
+             </span>
+         </div>
+    </body>
+</html>
